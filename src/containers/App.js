@@ -18,7 +18,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://raw.githubusercontent.com/pjmahesh/fake_json/master/users')
+    fetch('https://raw.githubusercontent.com/pullani/react-app/master/userdoc')
     .then(response => response.json())
     .then(users => {
       this.setState({ robots : users })
